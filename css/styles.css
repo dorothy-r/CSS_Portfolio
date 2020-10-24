@@ -1,0 +1,80 @@
+/* 
+COLOR PALETTE
+https://coolors.co/bdd9bf-2e4052-ffc857-ffffff-412234
+#bdd9bf - turquoise green
+#2e4052 - charcoal
+#ffc857 - maximum yellow red
+#ffffff - white
+#412234 - dark purple
+ */
+
+
+/* Global styles
+-------------------------------------------------------- */
+body {
+    color: #2e4052;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #ffc857;
+}
+a:hover {
+  text-decoration: none;  
+}
+h2{
+    margin: 0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/* Profile
+-------------------------------------------------------- */
+header {
+    background: #412234;
+    color: #ffffff;
+}
+
+/* Projects
+-------------------------------------------------------- */
+.projects {
+    background: #ffffff;
+}
+.projects a{
+    color: #412234;
+}
+.projects .btn {
+    color: #ffffff;
+    background: #412234;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects btn:hover {
+    background: rgba(65, 34, 52, 80%);
+}
+
+/* Work Experience
+-------------------------------------------------------- */
+.work-experience {
+    background: #bdd9bf;
+}
+
+/* Education
+-------------------------------------------------------- */
+
+
+/*Contact Info
+-------------------------------------------------------- */
+footer {
+    background: #2e4052;
+    color: #ffffff;
+}
