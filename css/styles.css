@@ -11,6 +11,12 @@ https://coolors.co/bdd9bf-2e4052-ffc857-ffffff-412234
 
 /* Global styles
 -------------------------------------------------------- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 body {
     color: #2e4052;
     margin: 0;
@@ -51,6 +57,7 @@ h1, h2 {
 header {
     background: #412234;
     color: #ffffff;
+    text-align: center;
 }
 
 /* Projects
@@ -72,11 +79,27 @@ header {
 .projects btn:hover {
     background: rgba(65, 34, 52, 80%);
 }
-
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #2e4052;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
 /* Work Experience
 -------------------------------------------------------- */
 .work-experience {
     background: #bdd9bf;
+}
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
 }
 
 /* Education
@@ -88,4 +111,15 @@ header {
 footer {
     background: #2e4052;
     color: #ffffff;
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
 }
